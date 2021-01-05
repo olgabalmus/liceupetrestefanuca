@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Liceul Teoretic ”Petre Ștefănucă” </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" type="image/png" href="../images/logo.jpg" />
+    <script src="../js/main.js"></script>
+</head>
+
+<body>
+    <header>
+        <img class="header-logo" src="../images/logou.png" alt="Logoul siteului" />
+        <div id="navbar" class="nav">
+            <a href="../index.html"> Home </a>
+            <a href="despre.html"> Despre noi </a>
+            <a href="contacte.html" class="active"> Contacte </a>
+            <a href="facebook.html"> Facebook </a>
+            <a class="hamburger-menu" onclick="mobileMenu()"><i class="fa fa-bars"></i></a>
+        </div>
+    </header>
+
+    <div class="container">
+        <br />
+
+        <div class="row">
+            <div class="col-5">
+                <div class="contact-form">
+                    <h3 class="centered"> Contactează-mă</h3>
+                    <hr>
+                    <form>
+                        <label for="nume"> Numele tău </label> <br />
+                        <input class="input-box" type="text" name="nume" id="nume" required /><br />
+
+                        <label for="email"> Email: </label> <br />
+                        <input class="input-box" type="email" name="email" id="email" required> <br />
+
+                        <label for="motiv"> Motivul:</label><br />
+                        <select class="input-box" name="motiv" id="email"><br />
+                            <option> Vreau să fiu elev</option>
+                            <option> Vreau să mă angajez ca profesor</option>
+                            <option> Vreau să cunosc activitățile liceului</option>
+                        </select>
+
+                        <br /><br />
+                        <input class="input-submit" type="submit" value="Transmite" />
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-5">
+            <div class="container-iframe">
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/lzNjM23572Y" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <hr />
+        <div class="row">
+            <div class="col-5">
+                <div class="container-contacte">
+                    <h3> Contacte liceu</h3>
+                    <br />
+                    <strong> Număr de contact:</strong><span> +373 0268 21965</span> <br> <br>
+                    <strong> Adresa liceului:</strong> <span> Basarabia 2</span><br> <br>
+                    <strong> Program de lucru:</strong> <span> Luni-Vineri</span> <br> <br>
+                    <strong> Ore de lucru:</strong> <span> 08:00-17:00</span><br> <br>
+                    <strong> Zile de odihnă:</strong><span> Sâmbătă-Duminică</span><br> <br>
+                    <strong> Email:</strong> <span>ltpetrestefanuca@gmail.com</span>
+                </div>
+            </div>
+        </div>
+
+        <hr />
+        <div class="row">
+            <div class="col-5">
+                <div class="container-iframe">
+                    <p>
+                    <h3>Ne găsiți aici</h3>
+                    </p>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2724.064984811579!2d28.77406811533518!3d46.940761879146145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c97f5f6ac799d9%3A0xe1cf2f65e3684003!2sLiceul%20Teoretic%20Petre%20%C5%9Etef%C4%83nuc%C4%83!5e0!3m2!1sen!2s!4v1607722093962!5m2!1sen!2s"
+                        width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen aria-hidden="false"
+                        tabindex="0"></iframe>
+                </div>
+            </div>
+    
+            <div class="col-5 ">
+                <img src="../images/PetreStefanuca.jpg" />
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="centered footer-info">
+            <span> Liceul Teoretic ”Petre Ștefănucă”. </span>
+            <span>2020</span>
+        </div>
+    </footer>
+</body>
+
+</html>
